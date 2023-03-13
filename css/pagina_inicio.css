@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
 body{
     background: #272635;
 }
 
 .wrapper .sidebar{
-    background:#8FB8ED;
+    background:#b0b0b6;
     position: fixed;
     top: 0;
     left: 0;
@@ -30,8 +37,8 @@ body{
     display: inline-block;
 }
 
-.wrapper .sidebar ul li a:hover,
-.wrapper .sidebar ul li a.active{
+.wrapper .sidebar ul li a:hover
+{
     color: #0c7db1;
 
     background:white;
