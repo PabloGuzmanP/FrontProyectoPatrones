@@ -1,0 +1,58 @@
+body {
+    /*se inician con config para quitar los default en el body */
+
+    background-color: #272635;
+}
+
+/*{}*/
+
+.logo {
+    width: 200px;
+    padding: 10px;
+}
+
+.logo img {
+    display: block;
+    max-width: 200%;
+    height: auto;
+    margin-left: 430px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons .ingresar {
+    background-color: #F1ECEC;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: #333333;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-color: #d8d8d8;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 35px;
+    cursor: pointer;
+}
+.buttons .registrar {
+    margin-left: 40px;
+    background-color: #F1ECEC;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: #333333;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-color: #d8d8d8;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 35px;
+    cursor: pointer;
+}

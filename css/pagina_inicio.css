@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background: #272635;
+}
+
+.wrapper .sidebar{
+    background:#8FB8ED;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.wrapper .sidebar ul li a{
+    display: block;
+    padding: 13px 30px;
+    border-bottom: 1px solid #10558d;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+}
+
+.wrapper .sidebar ul li a .icon{
+    color: #dee4ec;
+    width: 30px;
+    display: inline-block;
+}
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active{
+    color: #0c7db1;
+
+    background:white;
+    border-right: 2px solid rgb(5, 68, 104);
+}
+
+.wrapper .sidebar ul li a:hover .icon,
+.wrapper .sidebar ul li a.active .icon{
+    color: #0c7db1;
+}
+
+.wrapper .sidebar ul li a:hover:before,
+.wrapper .sidebar ul li a.active:before{
+    display: block;
+}
+.logo {
+    width: 200px;
+    padding: 10px;
+    margin-top: -340px;
+    margin-left: 130px;
+}
+
+.logo img {
+    display: block;
+    max-width: 200%;
+    height: auto;
+    margin-left: 430px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-left: 780px;
+}
+
+.buttons .botones{
+    background-color: #F1ECEC;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: #333333;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-color: #d8d8d8;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 35px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.boton_panico .btn{
+    background-color: red;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 710px;
+    margin-top: 70px;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+}
